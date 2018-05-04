@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimum-scale=1.0,maximum-scale=1.0,user-scalable=yes">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+	<title>:::관리자:::</title>
+	<link rel="stylesheet" type="text/css" href="../admin/asset/css/base.css" />
+	<link rel="stylesheet" type="text/css" href="../admin/asset/css/common.css" />
+</head>
+<body>
+    <div class="wrap">
+		<!-- sideWrap -->
+        <div class="sideWrap">
+            <h1><a href="#"></a></h1>
+			<div class="utill"><a href="#" class="log">Log out</a></div>
+            <nav class="lnb">
+                <ul>
+                    <li><a href="#">Data Summary</a></li>
+                    <li class="on"><a href="#">Personal Information</a></li>
+                    <li><a href="#">Redemption Performance</a></li>
+                    <li><a href="#">Media Channel Setting</a></li>
+                    <li><a href="#">Parameter Setting</a></li>
+                    <li><a href="#">Admin Code Setting</a></li>
+                    <li><a href="#">Campaign Setting</a></li>
+                </ul>
+            </nav>
+        </div>
+		<!-- //sideWrap -->
+
+		<!-- container -->
+        <div class="container">
+			<div class="titArea">
+				<h2>Personal Information</h2>
+			</div>
+
+			<div class="contents">
+				<div class="channelBox">
+					<table>
+						<colgroup>
+							<col style="width:200px;" />
+							<col />
+						</colgroup>
+						<tbody>
+							<tr>
+								<th scope="row">Total bottle purchased</th>
+								<td>5,000 EA</td>
+							</tr>
+							<tr>
+								<th scope="row">Total sales value</th>
+								<td>170,000,000 KRW</td>
+							</tr>
+						</tbody>
+					</table>
+				</div>
+				
+				<!-- sortArea -->
+				<div class="sortArea">
+					<span class="label"><label for="sort">Select media channel</label></span>
+					<span class="select">
+						<select id="sort">
+							<option>All</option>
+							<option>Online registration</option>
+							<option>No. of instore redemption</option>
+							<option>Redemption rate</option>
+							<option>No. of bottle sold</option>
+							<option>Total Sales Amount</option>
+						</select>
+					</span>
+
+					<div class="searchArea">
+						<input type="text" title="search" placeholder="Name" />
+						<button type="button" class="btn">Search</button>
+					</div>
+				</div>
+				<!-- //sortArea -->
+
+				<div class="tblList">
+					
+				</div>
+
+				<div class="paging">
+					<a href="#" class="prev"><img src="../admin/asset/images/arr_prev.png" alt="prev" /></a>
+					<a href="#" class="current">1</a>
+					<a href="#">2</a>
+					<a href="#">3</a>
+					<a href="#">4</a>
+					<a href="#">5</a>
+					<a href="#">6</a>
+					<a href="#">7</a>
+					<a href="#">8</a>
+					<a href="#">9</a>
+					<a href="#">10</a>
+					<a href="#" class="next"><img src="../admin/asset/images/arr_next.png" alt="next" /></a>
+				</div>
+
+				<div class="btnArea">
+					<a href="#" class="action">Download Excel</a>
+					<a href="#" class="cancel">Cancel</a>
+				</div>
+			</div>
+		</div>
+		<!-- //container -->
+	</div>
+	
+	<!-- layerPop -->
+	<div class="layerPop" style="width:500px;height:500px;margin:-250px 0 0 -250px">
+		<div class="layerPopCont">
+			<div class="titArea"><h2>Add media channel and creative</h2></div>
+
+			<div class="inner">
+			</div>
+
+			<div class="btnArea">
+				<button type="button" class="action">Confirm</button>
+				<button type="button" class="cancel">Cancel</button>
+			</div>
+		</div>
+	</div>
+	<!-- //layerPop -->
+</body>
+</html>

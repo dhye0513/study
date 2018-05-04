@@ -16,11 +16,11 @@
 			<div class="utill"><a href="#" class="log">Log out</a></div>
             <nav class="lnb">
                 <ul>
-                    <li class="on"><a href="#">Data Summary</a></li>
+                    <li><a href="#">Data Summary</a></li>
                     <li><a href="#">Personal Information</a></li>
                     <li><a href="#">Redemption Performance</a></li>
                     <li><a href="#">Media Channel Setting</a></li>
-                    <li><a href="#">Parameter Setting</a></li>
+                    <li class="on"><a href="#">Parameter Setting</a></li>
                     <li><a href="#">Admin Code Setting</a></li>
                     <li><a href="#">Campaign Setting</a></li>
                 </ul>
@@ -31,52 +31,33 @@
 		<!-- container -->
         <div class="container">
 			<div class="titArea">
-				<h2>Data Summary</h2>
+				<h2>Parameter Setting</h2>
 			</div>
 
 			<div class="contents">
 				<div class="topArea">
-					<div class="sortArea">
-						<span class="label"><label for="sort">Select media channel</label></span>
-						<span class="select">
-							<select id="sort">
-								<option>All</option>
-								<option>Online registration</option>
-								<option>No. of instore redemption</option>
-								<option>Redemption rate</option>
-								<option>No. of bottle sold</option>
-								<option>Total Sales Amount</option>
-							</select>
-						</span>
-					</div>
+					<h3>Parameter Setting</h3>
 				</div>
-				
-				<!-- dataSummary -->
-				<div class="dataSummary">
-					<ul>
-						<li>
-							<div class="box"><span>1,500</span></div>
-							<p class="tit">Online registration</p>
-						</li>
-						<li>
-							<div class="box"><span>500</span></div>
-							<p class="tit">No. of instore redemption</p>
-						</li>
-						<li>
-							<div class="box"><span>30%</span></div>
-							<p class="tit">Redemption rate</p>
-						</li>
-						<li>
-							<div class="box"><span>600</span></div>
-							<p class="tit">No. of bottle sold</p>
-						</li>
-						<li>
-							<div class="box"><span>6,000,000</span></div>
-							<p class="tit">Total Sales Amount</p>
-						</li>
-					</ul>
+
+				<div class="tblWrite">
+					<table>
+						<caption>Parameter Setting</caption>
+						<colgroup>
+							<col style="width:100px" />
+							<col />
+						</colgroup>
+						<tbody>
+							<tr>
+								<th scope="row"><p class="tit">Content</p></th>
+								<td><input type="text" class="text" /></td>
+							</tr>
+							<tr>
+								<th scope="row"></th>
+								<td></td>
+							</tr>
+						</tbody>
+					</table>
 				</div>
-				<!-- //dataSummary -->
 			</div>
 		</div>
 		<!-- //container -->

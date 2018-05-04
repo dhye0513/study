@@ -11,19 +11,19 @@ address,blockquote,
 p,pre,
 span,b,strong,i,em,dfn,var,u,ins,s,del,q,mark,small,sub,sup,abbr,bdi,bdo,cite,time,ruby,rp,rt,code,kbd,samp,
 acronym,big,frame,frameset,noframes,tt,
-map,option,hr{border:0;padding:0;margin:0;color:inherit;font-size:inherit;line-height:inherit;vertical-align:top}
-body,html{height:100%;}
-body{font-family:'맑은고딕',Malgun Gothic,dotum,'돋음', arial, sans-serif; font-size:12px;overflow-y:auto;letter-spacing:-1.2px}
-header,footer,aside,nav,section,article,details,summary,figure,figcaption,menu,command{display:block} /* HTML5 블럭 요소 */
-q,blockquote{quotes:none;content:none}
-li,menu{list-style:none}
+map,option,hr{border:0;padding:0;margin:0;color:inherit;font-size:inherit;line-height:inherit;vertical-align:top;box-sizing:border-box;}
+body,html{height:100%;min-width:1280px;}
+body{font-family:'맑은고딕',Malgun Gothic,dotum,arial,sans-serif,'돋음'; font-size:13px;overflow-y:auto;color:##354052;}
+header,footer,aside,nav,section,article,details,summary,figure,figcaption,menu,command{display:block;} /* HTML5 블럭 요소 */
+q,blockquote{quotes:none;content:none;}
+li,menu{list-style:none;}
 
-table{width:100%;border-collapse:collapse;border-spacing:0}
-caption{text-align:left}
-th,td{text-align:center;vertical-align:middle}
+table{width:100%;border-collapse:collapse;border-spacing:0;}
+caption{text-align:left;}
+th,td{text-align:center;vertical-align:middle;}
 
-address{font-style:normal}
-label{display:inline-block;*zoom:1}
+address{font-style:normal;}
+label{display:inline-block;*zoom:1;}
 a{text-decoration:none;}
 
 a:hover, a:active, a:focus{text-decoration:none;}
@@ -34,7 +34,7 @@ table th a{text-decoration:none;}
 table th a:hover, table th a:active, table th a:focus{text-decoration:none;}
 
 .blind{position:absolute;width:0;height:0;left:0;top:0;font-size:0;line-height:0;overflow:hidden}
-.hidden{width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden} /* .blind를 적용할 수 없는 곳에 사용 (예, caption) */
+caption,.hidden{width:0;height:0;font-size:0;line-height:0;overflow:hidden;visibility:hidden} /* .blind를 적용할 수 없는 곳에 사용 (예, caption) */
 em{font-style:normal;}
 img{max-width:100%;}
 .eng{font-family:'tahoma', arial sans-serif;}
@@ -42,3 +42,7 @@ strong,th,h1,h2,h3,h4,h5{}
 
 fieldset {margin:0;padding:0;border:0;font-size:100%;}
 legend {overflow:hidden;position:absolute;top:0;left:-10000%;width:1px;height:1px;font-size:0;line-height:0;text-indent:-10000px;}
+
+button{cursor:pointer;}
+
+ul:after{clear:both;display:block;content:"";}
